@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="email">Email</string>
+    <string name="camera">Camera</string>
+    <string name="photos">Photos</string>
+</resources>
