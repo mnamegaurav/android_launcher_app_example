@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == CAPTURED_ID && resultCode==RESULT_OK) {
             Bitmap photo_captured = (Bitmap) data.getExtras().get("data");
             img.setImageBitmap(photo_captured);
-
         }
         else if (requestCode == SELECTED_ID && resultCode==RESULT_OK) {
             Uri uri = data.getData();
